@@ -1,0 +1,21 @@
+
+#anchorpane{
+    -fx-background-color: lightblue;
+    -fx-text-fill: white;
+}
+
+#tableButton{
+    -fx-background-color: white;
+
+}
+#tableButton:hover{
+    -fx-text-fill: skyblue;
+}
+
+#graphButton{
+    -fx-background-color: white;
+
+}
+#graphButton:hover{
+    -fx-text-fill: skyblue;
+}
