@@ -30,7 +30,7 @@ public class GraphController {
 
     @FXML
     public void initialize(){
-        // Bar Graph
+        // Creating Bar Graph
         if (graphView == null)
             graphView = new BarChart<String,Number>(new CategoryAxis(), new NumberAxis());
 
@@ -57,6 +57,5 @@ public class GraphController {
 
         graphView.setTitle("Genshin Impact Character Revenue by Version");
         graphView.getData().add(data);
-
     }
 }
